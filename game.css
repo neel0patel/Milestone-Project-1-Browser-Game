@@ -1,48 +1,39 @@
-.game {
-  width: 100%;
-  /* height: 225px; */
-  /* border: 3px solid rgba(0, 0, 0, 0.161); */
-  /* margin: auto; */
-  /* background-color: rgb(255, 255, 255); */
-  /* I have this commented out rn because i dont know if I want to border the game or let it just be open and centered on the screen */
-  overflow: hidden;
-  position: relative;
+* {
+  padding: 0;
+  margin: 0;
 }
 body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  background-color: lavender;
 }
-
-.score {
+.game {
+  width: 400px;
+  height: 550px;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+}
+#character {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: blue;
   position: absolute;
-  font-size: 3.5vmin;
-  right: 1vmin;
+  top: 400px;
+  left: 100px;
+  z-index: 1000000;
 }
-.start-screen {
-  position: absolute;
-  justify-content: center;
-  text-align: center;
-  font-size: 4vmin;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
-
-/* This part was killing me but I had to look up how to concurrently place two images next to each other. Had to watch a youtube video also. I also know i'll have to animate the ground in JavaScript but I'm pretty glad to have it where it's at right now.  */
-.ground {
-  --left: 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: calc(var(--left) * 1%);
-}
-/* img.Animated-gif {
-  width: 65px;
-  height: 65px;
-  background-repeat: no-repeat;
+.block {
+  width: 400px;
+  height: 20px;
+  background-color: black;
   position: relative;
-  margin-top: 160px;
-} */
+  top: 100px;
+  margin-top: -20px;
+}
+.hole {
+  width: 40px;
+  height: 20px;
+  background-color: lavender;
+  position: relative;
+  top: 100px;
+  margin-top: -20px;
+}
