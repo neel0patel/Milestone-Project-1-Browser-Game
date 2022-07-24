@@ -2,23 +2,21 @@
   padding: 0;
   margin: 0;
 }
-body {
-  background-color: lavender;
-}
-.game {
+#game {
   width: 400px;
-  height: 550px;
+  height: 500px;
+  border: 1px solid black;
   margin: auto;
-  border: 2px solid rebeccapurple;
+  overflow: hidden;
 }
 #character {
   width: 20px;
   height: 20px;
+  background-color: red;
   border-radius: 50%;
-  background-color: blue;
-  position: absolute;
+  position: relative;
   top: 400px;
-  left: 100px;
+  left: 190px;
   z-index: 1000000;
 }
 .block {
@@ -32,8 +30,24 @@ body {
 .hole {
   width: 40px;
   height: 20px;
-  background-color: lavender;
+  background-color: rgb(98, 159, 135);
   position: relative;
   top: 100px;
   margin-top: -20px;
+}
+body {
+  padding: 20px;
+  background-color: rgb(98, 159, 135);
+}
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bold;
+  padding: 0 40px;
+  background: salmon;
+  border: none;
+  margin-left: 325px;
+}
+button:hover {
+  background: lightsalmon;
 }

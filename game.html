@@ -2,17 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fall Game</title>
-    <link rel="stylesheet" href="./game.css" />
-    <script src="./game.js"></script>
+    <title>Fall game</title>
+    <link rel="stylesheet" href="game.css" />
   </head>
   <body>
-    <div class="game">
+    <div id="game">
       <div id="character"></div>
-      <div class="block" id="block"></div>
-      <div class="hole" id="hole"></div>
     </div>
+
+    <audio controls muted autoplay>
+      <source src="Hyponetic.mp3" type="audio/mp3" id="music" />
+      Your browser does not support the audio element.
+    </audio>
   </body>
+  <script src="game.js"></script>
 </html>
