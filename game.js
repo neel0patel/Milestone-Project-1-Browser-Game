@@ -6,18 +6,15 @@ let counter = 0;
 let charMove;
 counterArray = [];
 var button = document.createElement("button");
-var sounds = document.getElementById("music");
-// var myMusic;
+var characterTop;
+var characterLeft;
 
-// function musicPlay() {
-//   myMusic = new sound("Hyponetic.mp3");
-//   myMusic.play();
-// }
-// window.addEventListener("load", () => {
-//   musicPlay();
-//   console.log("music is not working");
-// });
+var audio = document.getElementById("audio");
+var button = document.getElementById("button");
 
+button.addEventListener("click", (event) => {
+  audio.play();
+});
 // Button for game
 button.innerHTML = "Start Game";
 
