@@ -1,0 +1,20 @@
+{
+  "name": "milestone-project-1-browser-game",
+  "version": "1.0.0",
+  "description": "Hello my names Neel and this is my first independent browser game project. This project's goal is to create a browser game with functionality, specs, and design that all work. The creation of this browser game consists of HTML, CSS, and JavaScript. This browser game will be a replica of the classic Fall Ball game.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neel0patel/Milestone-Project-1-Browser-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neel0patel/Milestone-Project-1-Browser-Game/issues"
+  },
+  "homepage": "https://github.com/neel0patel/Milestone-Project-1-Browser-Game#readme"
+}
