@@ -2,7 +2,7 @@
 
 ## Description
 
-Hello my names Neel and this is my first independent browser game project. This project's goal is to create a browser game with functionality, specs, and design that all work. The creation of this browser game consists of HTML, CSS and SCSS, and JavaScript. This browser game will be a replica of the classic Fall Ball game. Use the mouse to click `start the game`, afterwards, all that's needed is for you to use your `left` and `right` arrow keys to move the ball. This is what your screen will look like before starting the game.
+Hello my names Neel and this is my first independent browser game project. This project's goal is to create a browser game with functionality, specs, and design that all work. The creation of this browser game consists of HTML, CSS and SCSS, and JavaScript. This browser game will be a replica of the classic Fall Ball game. Use the mouse to click `start game`, afterwards, all that's needed is for you to use your `left` and `right` arrow keys to move the ball. This is what your screen will look like before starting the game.
 ![Fall Ball](images/fallBall.png?raw=true "Fall Ball")
 
 ## Development Setup
