@@ -1,0 +1,32 @@
+- added more info to  ReadMe
+- added more info to  ReadMe
+- added more info to  ReadMe
+- added more info to  ReadMe
+- added image to ReadMe
+- edits w/ readMe & added image
+- push
+- changed CSS to SCSS
+- Delete ball-impact.wav
+- Fall Ball Game
+- Delete game.js
+- Fall Ball Game
+- Delete game.js
+- Delete game.html
+- Delete game.css
+- Game information
+- Delete README.md
+- Add files via upload
+- Delete game.css
+- Delete game.html
+- Delete game.js
+- Add files via upload
+- Delete README.md
+- Fall Ball Game
+- Add files via upload
+- Delete README.md
+- Fall Ball Game
+- Delete .DS_Store
+- Fall Ball Game
+- Browser Game
+- Browser Game(Dino Run)
+- Initial commit
