@@ -1,6 +1,4 @@
-<p align="center">
 # **Milestone-Project-1-Browser-Game**
-</p>
 
 ## Description
 
@@ -11,7 +9,8 @@ Hello my names Neel and this is my first independent browser game project. This 
 
 To use the game yourself, you to clone over the repo onto your own device and then copy and paste the path of `game.html` into your browser. Hit the start button and the game will proceed!
 
-> _Note_ - You can increase the speed of the floors moving up by hitting `start game` button again!
+> **Note**
+> You can increase the speed of the floors moving up by hitting `start game` button again!
 
 ### Issues
 
